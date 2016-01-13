@@ -1,3 +1,5 @@
+
+
 print("Hello I Am Your Personal Assistant")
 print("I Can Do What Ever You Want Me To")
 print("////////////////////////////////////////")
@@ -13,26 +15,44 @@ if "remember" in User_Input:
     Remember_Input = input("What Would You Like Me To Remember?")
     print("Ok, I Will Remember That!")
     User_Input = input("What do you want me to do?")
+else:
+    print("That command is not reccognized")
+    User_Input = input("What do you want me to do?")
     
 if "say" in User_Input:
     print("Ok here is the thing you asked me to remember...", Remember_Input)
     User_Input = input("what do you want me to do")
+else:
+    print("That command is not reccognized")
+    User_Input = input("What do you want me to do?")
     
 if "name" in User_Input:
     Name_Input = input("What Is Your Name?")
     print("Ok, I Will Call You", Name_Input)
     User_Input = input("What do you want me to do?")
+else:
+    print("That command is not reccognized")
+    User_Input = input("What do you want me to do?")
     
 if "joke" in User_Input:
     print("A man walks into a bar... He says ow!")
+    User_Input = input("What do you want me to do?")
+else:
+    print("That command is not reccognized")
     User_Input = input("What do you want me to do?")
     
 if "love" in User_Input:
     print("Im sorry our love can never be because im a robot")
     User_Input = input("What do you want me to do?")
+else:
+    print("That command is not reccognized")
+    User_Input = input("What do you want me to do?")
      
 if "hate" in User_Input:
     print("That is not nice")
+    User_Input = input("What do you want me to do?")
+else:
+    print("That command is not reccognized")
     User_Input = input("What do you want me to do?")
  
 if "goodbye" in User_Input:
